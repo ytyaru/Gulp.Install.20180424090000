@@ -13,8 +13,19 @@ $ ./install.sh
 
 * package.json
 * node_modules/
+* dst/
 
 ファイルサイズ約60MB。所要時間約3m30s。[※](memo/install.md)
+
+## gulp
+
+```sh
+$ cd (このディレクトリ)
+$ gulp
+```
+
+* ./stylus/*
+
 
 # 実装時にハマったこと
 
