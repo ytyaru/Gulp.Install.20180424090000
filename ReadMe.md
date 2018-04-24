@@ -31,36 +31,11 @@ $ gulp
 
 詳細は[gulpfile.js](gulpfile.js)参照。
 
-### 実行
+### 起動
 
 ローカルサーバ、ブラウザ、が起動し、./index.htmlが表示される。
 
-ローカルサーバはターミナルで`Ctrl+C`キー入力すれば停止できる。(Ctrl+Zで強制終了してしまうとプロセスが残ってしまう模様)
-
-```sh
-$ gulp
-[11:17:58] Using gulpfile /tmp/work/Gulp.Install.20180424090000/gulpfile.js
-[11:17:58] Starting 'stylus'...
-[11:17:58] Starting 'browser-sync'...
-[11:17:58] Finished 'browser-sync' after 245 ms
-[11:17:58] Starting 'pug'...
-[11:17:58] Finished 'pug' after 7.28 ms
-[11:17:58] Starting 'watch'...
-[11:17:58] Finished 'watch' after 19 ms
-[11:17:59] Finished 'stylus' after 918 ms
-[11:17:59] Starting 'default'...
-[11:17:59] Finished 'default' after 188 μs
-[Browsersync] Access URLs:
- -------------------------------------
-       Local: http://localhost:3006
-    External: http://192.168.11.2:3006
- -------------------------------------
-          UI: http://localhost:3007
- UI External: http://192.168.11.2:3007
- -------------------------------------
-[Browsersync] Serving files from: ./
-^C
-```
+ローカルサーバはターミナルで`Ctrl+C`キー入力すれば停止できる。(Ctrl+Zで強制終了してしまうとプロセスが残ってしまう模様)[※](run.md)
 
 # 実装時にハマったこと
 
@@ -90,11 +65,3 @@ vimでインデント設定してやらないとエラーになる。[※](memo/
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)
 
-使用ソフトウェアは以下。
-
-Library|License|Copyright
--------|-------|---------
-[require](http://requirejs.org/)|[MIT](https://opensource.org/licenses/MIT)|[Copyright jQuery Foundation and other contributors](https://github.com/requirejs/requirejs/blob/master/LICENSE)
-[jQuery](https://jquery.com/)|[MIT](https://opensource.org/licenses/MIT)|[Copyright JS Foundation and other contributors](https://jquery.org/license/)
-[highlight](https://highlightjs.org/)|[BSD-3-clause](https://spdx.org/licenses/BSD-3-Clause-Clear.html)|[Copyright (c) 2006, Ivan Sagalaev](https://github.com/isagalaev/highlight.js/blob/master/LICENSE)
-[marked](https://github.com/markedjs/marked)|[MIT](https://opensource.org/licenses/MIT)|[Copyright (c) 2011-2018, Christopher Jeffrey.](https://github.com/markedjs/marked/blob/master/LICENSE.md)
